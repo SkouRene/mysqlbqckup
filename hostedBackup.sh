@@ -1,5 +1,5 @@
 #!/bin/bash
-# Backup a mysql database
+# Backup a mysql database to s3
 
 DATE=`date +"%Y%m%d"`
 BUCKET="s3://hosted-mysql-backup"
